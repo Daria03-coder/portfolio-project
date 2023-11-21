@@ -62,12 +62,15 @@ footer {
 @media (max-width: 700px) {
   .intro-part {
     text-align: center;
-    margin-left: 60px;
   }
   .skills h3 {
     margin-left: 60px;
   }
   footer {
     margin-left: 60px;
+  }
+  .skills-picture {
+    margin: 0 auto;
+    max-width: 380px;
   }
 }
