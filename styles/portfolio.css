@@ -15,6 +15,11 @@ h1 {
   font-weight: bold;
   font-size: 36px;
 }
+.app-name {
+  line-height: 2;
+  color: #6c63ff;
+  text-align: center;
+}
 h2 {
   line-height: 2;
   color: rgb(117, 108, 108);
@@ -98,10 +103,8 @@ footer {
   max-width: 700px;
   width: 100%;
 }
-.contact-link {
-  background: var(--main-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+.contact {
+  font-size: 20px;
 }
 .myWorks {
   margin-top: 20px;
@@ -111,11 +114,30 @@ footer {
   font-size: 10px;
   margin-top: 20px;
 }
+.contact p {
+  margin-bottom: 0;
+}
+.email-link {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.contact {
+  padding-bottom: 15px;
+}
+.contact-link {
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
 @media (max-width: 700px) {
   .intro-part {
     text-align: center;
   }
 
+  h3 {
+    font-size: 25px;
+  }
   footer {
     margin-left: 60px;
   }
