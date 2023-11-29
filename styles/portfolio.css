@@ -93,6 +93,20 @@ footer {
 .avatar {
   width: 100%;
 }
+.works {
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+.contact-link {
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.myWorks {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 @media (max-width: 700px) {
   .intro-part {
     text-align: center;
@@ -107,5 +121,9 @@ footer {
   }
   .contact {
     font-size: 18px;
+  }
+  .link {
+    margin-bottom: 15px;
+    font-size: 15px;
   }
 }
