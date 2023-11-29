@@ -1,11 +1,14 @@
 :root {
   --main-color: #6c63ff;
+  --secondary-color: #f5f2fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
+  text-align: center;
 }
 .hello {
   font-family: var(--default-font-family);
@@ -15,6 +18,7 @@ h1 {
 h2 {
   line-height: 2;
   color: rgb(117, 108, 108);
+  text-align: center;
 }
 body {
   background-color: #f9f7fe;
@@ -63,6 +67,32 @@ footer {
   text-align: center;
   font-family: var(--default-font-family);
 }
+.about-paragraphs {
+  background: var(--secondary-color);
+  padding: 20px;
+  border: 1px solid rgb(226, 219, 219);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+.contact {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 36px;
+}
+.avatar-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.avatar {
+  width: 100%;
+}
 @media (max-width: 700px) {
   .intro-part {
     text-align: center;
@@ -74,5 +104,8 @@ footer {
   .skills-picture {
     margin: 0 auto;
     max-width: 380px;
+  }
+  .contact {
+    font-size: 18px;
   }
 }
