@@ -129,7 +129,12 @@ footer {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
+.social-links a {
+  margin: 0 20px;
+  color: var(--main-color);
+  padding: 10px;
+  font-size: 30px;
+}
 @media (max-width: 700px) {
   .intro-part {
     text-align: center;
